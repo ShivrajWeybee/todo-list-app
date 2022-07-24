@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TODO App</title>
+    <link rel="icon" type="image/x-icon" href="tasksss.png">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/a19b7777ea.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    
+    <h1 class="title">TODO list</h1>
+    <hr class="main-hr">
+    <div class="wrapper">
+        <div class="containar">
+            <div class="left-side">
+                <div class="date-and-time">
+                    <p class="day"></p>
+                    <p class="date-and-month"><span class="date"></span> , <span class="month"></span></p>
+                </div>
+                <hr class="main-hr">
+                <div class="task-summary">
+                    <p class="'task-total-p">Total Tasks</p>
+                    <p class="task-number-total">12</p>
+                </div>
+                <hr class="main-hr">
+                <div class="action-on-task dropdown">
+                    <select name="action" id="action" class="task-action">
+                        <option value="def" selected>Action</option>
+                        <option value="dlt">Delete All Selected</option>
+                        <option value="selectall">Select All</option>
+                        <option value="unselectall">Un Select All</option>
+                    </select>
+                </div>
+                <hr class="main-hr">
+                <div class="sort-on-task dropdown">
+                    <select name="action" id="action" class="task-sort">
+                        <option value="def" selected>Sort</option>
+                        <option value="az">A-Z</option>
+                        <option value="za">Z-A</option>
+                        <option value="new">Newest</option>
+                        <option value="old">Oldest</option>
+                    </select>
+                </div>
+                <hr class="main-hr">
+            </div>
+    
+            <div class="right-side">
+                <div class="input-text-field">
+                    <input type="text" name="task" id="task" class="enter-task" placeholder="add some task">
+                </div>
+                <div class="add-and-search flex">
+                    <button class="add-task button-color" >ADD</button>
+                    <button class="search-task button-color">SEARCH</button>
+                </div>
+                <!-- <hr class="hr-style"> -->
+                <hr class="main-hr-right-side">
+                <div class="task-category flex">
+                    <button class="button-color" id="allTaskBTN">All</button>
+                    <button class="button-color" id="activeTaskBTN">Active</button>
+                    <button class="button-color" id="completedTaskBTN">Completed</button>
+                </div>
+                <div class="display-allTask">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
