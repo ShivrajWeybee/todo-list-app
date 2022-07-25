@@ -33,7 +33,7 @@ h1 {
   justify-content: space-between;
   align-items: flex-start;
   margin: 0 auto;
-  width: 60%;
+  width: 75%;
   border: 1px solid rgba(255, 210, 105, 0.5019607843);
   border-radius: 1em;
   padding: 1em;
@@ -42,7 +42,7 @@ h1 {
 
 .right-side {
   width: 100%;
-  min-height: 270px;
+  min-height: 300px;
   padding-left: 1em;
   border-left: 1px solid rgba(255, 210, 105, 0.1450980392);
 }
@@ -55,6 +55,10 @@ h1 {
   justify-content: space-between;
   font-size: 18px;
   padding-left: 0.5em;
+}
+
+.add-search-btn button {
+  margin: 0 5px;
 }
 
 .date-and-time {

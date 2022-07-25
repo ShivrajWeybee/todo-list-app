@@ -119,7 +119,7 @@ isAdd = true;
 isSearch = false;
 addBtn.style.borderColor = '#FFD369';
 searchBtn.style.borderColor = '#EEEEEE';
-mainInputTask.placeholder = 'add some task here..';
+mainInputTask.placeholder = 'Press Enter to add task...';
 
 mainInputTask.focus();
 displayTaskContainer.innerHTML = '';

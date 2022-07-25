@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>TODO App</title>
-    <link rel="icon" type="image/x-icon" href="tasksss.png">
+    <!-- <link rel="icon" type="image/x-icon" href="tasksss.png"> -->
     <link rel="stylesheet" href="style.css">
     <script src="https://kit.fontawesome.com/a19b7777ea.js" crossorigin="anonymous"></script>
 </head>
@@ -48,14 +48,15 @@
             </div>
     
             <div class="right-side">
-                <div class="input-text-field">
-                    <input type="text" name="task" id="task" class="enter-task" placeholder="add some task">
+                <div class="add-search-btn flex">
+                    <div class="input-text-field">
+                        <input type="text" name="task" id="task" class="enter-task" placeholder="add some task">
+                    </div>
+                    <div class="add-and-search flex">
+                        <button class="add-task button-color"><i class="fa-solid fa-plus"></i></button>
+                        <button class="search-task button-color"><i class="fa-solid fa-magnifying-glass"></i></button>
+                    </div>
                 </div>
-                <div class="add-and-search flex">
-                    <button class="add-task button-color" >ADD</button>
-                    <button class="search-task button-color">SEARCH</button>
-                </div>
-                <!-- <hr class="hr-style"> -->
                 <hr class="main-hr-right-side">
                 <div class="task-category flex">
                     <button class="button-color" id="allTaskBTN">All</button>
