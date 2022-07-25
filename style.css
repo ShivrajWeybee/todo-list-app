@@ -57,6 +57,9 @@ h1 {
   padding-left: 0.5em;
 }
 
+.add-search-btn {
+  gap: 2em;
+}
 .add-search-btn button {
   margin: 0 5px;
 }
@@ -74,6 +77,7 @@ h1 {
 
 .add-and-search {
   margin: 1.5em 0;
+  justify-content: space-between;
 }
 .add-and-search button {
   color: #EEEEEE;
@@ -135,6 +139,9 @@ select {
   color: rgb(153, 153, 153);
 }
 
+.input-text-field {
+  width: 100%;
+}
 .input-text-field input {
   background-color: transparent;
   color: #EEEEEE;

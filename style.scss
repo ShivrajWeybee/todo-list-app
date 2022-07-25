@@ -59,6 +59,7 @@ h1 {
     } 
 }
 .add-search-btn {
+    gap: 2em;
     button {
         margin: 0 5px;
     }
@@ -75,6 +76,7 @@ h1 {
 }
 .add-and-search {
     margin: 1.5em 0;
+    justify-content: space-between;
     button {
         color: $text;
         border: 1px solid $text;
@@ -132,6 +134,7 @@ select {
 }
 
 .input-text-field{
+    width: 100%;
     input{
         background-color: transparent;
         color: $text;
