@@ -362,6 +362,11 @@ taskSort.addEventListener('input', function() {
         if(isAll) {
             for(let i of taskArr) {
                 insertHTML(i);
+                if(completedArr.includes(i)) {
+                    const d = document.querySelector(`#checked-${taskId}`);
+                    d.checked = true;
+                    document.querySelector(`#para-id-${taskId}`).style.textDecoration = "line-through";
+                }
             }
         }
         else if (isActive) {
