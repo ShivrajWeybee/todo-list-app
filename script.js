@@ -74,7 +74,7 @@ function insertHTML(task) {
                     <button class="delete-${taskId}" onclick="deleteTask(${taskId})"><i class="fa-solid fa-trash"></i></button>
                 </div>
             </div>
-            <hr>
+            <hr class="main-hr">
         </div>`
 
         displayTaskContainer.insertAdjacentHTML('afterbegin', html);
